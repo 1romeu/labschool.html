@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Sedgwick+Ave+Display&display=swap');
+body{
+    /*background-color: linear-gradient(45deg, #003785, #2196f3)fixed;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #a3a8ad;
+}
+
+.header-container{
+    background-color: #003785;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+main {
+    background-color: #a3a8ad;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 123px;
+}
+
+main h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Bree Serif", serif;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+#buttonCadastro{
+    text-align: center;
+    margin-left: 270px;
+    width: 100px;
+}
+
+#buttonUpdate{
+    text-align: center;
+    margin-left: 270px;
+    width: 100px;
+}
+
+
+#form-container{
+    background-color: #ffffff;
+    padding: 8px;  
+    margin-left: 200px;
+    margin-right: 250px;
+    border-radius: 38px;
+}
+
+.form-label{
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.footer-container > p , .footer-container-social{
+    text-align: center;
+    margin: 0;
+    color:#000000;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
